@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Image Slider with controls</title>
+        <link rel="stylesheet" href="style.css" >
+    </head>
+    <body>
+        <div class="container">
+
+            <input type="radio" name="images" id="i1" checked>
+            <input type="radio" name="images" id="i2">
+            <input type="radio" name="images" id="i3">
+
+            <div class="slide_img" id="one">
+                <img src="panda.jpg" alt="panda">
+                <label for="i3" class="pre"></label>
+                <label for="i2" class="next"></label>
+            </div>
+
+            <div class="slide_img" id="two">
+                <img src="tigre.jpg" alt="tigre">
+                <label for="i1" class="pre"></label>
+                <label for="i3" class="next"></label>
+            </div>
+
+            <div class="slide_img" id="three">
+                <img src="chat.jpg" alt="chat">
+                <label for="i2" class="pre"></label>
+                <label for="i1" class="next"></label>
+            </div>
+
+            <div class="nav">
+                <label for="i1" id="dot1" class="dots"></label>
+                <label for="i2" id="dot2" class="dots"></label>
+                <label for="i3" id="dot3" class="dots"></label>
+            </div>
+
+        </div>
+    
+    </body>
+</html>
